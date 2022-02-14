@@ -1,11 +1,14 @@
 package ar.com.practicas;
 
-public class Scanner {
+
+import java.util.Scanner;
+
+public class ScannerExample {
 
     public static void main(String[] args) {
 
         //Defino mi scaner
-        java.util.Scanner consola = new java.util.Scanner(System.in);
+        Scanner consola = new Scanner(System.in);
 
         //Mensaje para el usuario:
         System.out.print("Escribe tu nombre: ");

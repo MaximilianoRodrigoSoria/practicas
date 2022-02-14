@@ -1,10 +1,10 @@
 package ar.com.practicas;
 
-public class Swich {
+public class Switch {
 
     public static void main(String[] args) {
 
-        int nota = 4;
+        int nota = 11;
         String  estado = "Consultar legajo de alumno";
 
         switch(nota){
@@ -20,8 +20,12 @@ public class Swich {
             case 10:
                 estado = "esta aprobado con la nota mas alta";
                 break;
+            default:
+                estado = " tiene estado indefinido";
+                break;
+
         }
-        System.out.println("Estado del alumno " + estado);
+        System.out.println("El alumno " + estado);
 
     }
 }

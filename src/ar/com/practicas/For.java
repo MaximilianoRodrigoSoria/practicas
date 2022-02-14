@@ -4,8 +4,9 @@ public class For {
 
     public static void main(String[] args) {
 
-        int cantidadDeNumeros = 3;
-        for( var contador = 0 ; contador < cantidadDeNumeros ; contador++ ){
+
+        for( int contador = 1 ; contador <= 3 ; contador++ ){
+            System.out.println("Mi mensaje");
             System.out.println("contador = " + contador);
         }
     }
